@@ -30,4 +30,6 @@ B = A * A
 matriz C = [[5.5, 6.7], [8.9, 10.1]]
 resultado = B * C
 ```
-
+# Resultado
+![alt text](image.png)
+![alt text](image-1.png)
