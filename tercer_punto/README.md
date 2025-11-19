@@ -22,7 +22,7 @@ source venv/bin/activate
 python main.py archivo.txt
 ```
 
-## Ejemplo de entrada valida
+## Ejemplo
 
 ```
 matriz A = [[1, 2], [3, 4]]
@@ -33,3 +33,11 @@ resultado = B * C
 # Resultado
 ![alt text](image.png)
 ![alt text](image-1.png)
+
+## Ejemplo 2
+```
+matriz A = [[1, 2], [3, 4]]
+C = A * [[5, 6], [7, 8]]
+```
+# Resultado
+![alt text](image-2.png)
