@@ -55,3 +55,80 @@ COMPARACION -> ID IGUAL VALOR
 ```
 
 # Gramatica de atributos
+<table>
+  <tr>
+    <th>Produccion</th>
+    <th>Atributo</th>
+  </tr>
+  <tr>
+    <td>S → SELECT_STMT</td>
+    <td>funcion regla_S_SELECT(SELECT_STMT):
+    S.tipo = "SELECT"
+    S.tabla = SELECT_STMT.tabla
+    S.valido = SELECT_STMT.codigo != null
+    S.codigo = SELECT_STMT.codigo
+    retornar S
+</td>
+  </tr>
+  <tr>
+    <td>Valor 3</td>
+    <td>Valor 4</td>
+  </tr>
+  <tr>
+    <td>Valor 1</td>
+    <td>Valor 2</td>
+  </tr>
+  <tr>
+    <td>Valor 3</td>
+    <td>Valor 4</td>
+  </tr>
+  <tr>
+    <td>Valor 1</td>
+    <td>Valor 2</td>
+  </tr>
+  <tr>
+    <td>Valor 3</td>
+    <td>Valor 4</td>
+  </tr>
+  <tr>
+    <td>Valor 1</td>
+    <td>Valor 2</td>
+  </tr>
+  <tr>
+    <td>Valor 3</td>
+    <td>Valor 4</td>
+  </tr>
+  <tr>
+    <td>Valor 1</td>
+    <td>Valor 2</td>
+  </tr>
+  <tr>
+    <td>Valor 3</td>
+    <td>Valor 4</td>
+  </tr>
+  <tr>
+    <td>Valor 1</td>
+    <td>Valor 2</td>
+  </tr>
+  <tr>
+    <td>Valor 3</td>
+    <td>Valor 4</td>
+  </tr>
+  <tr>
+    <td>Valor 1</td>
+    <td>Valor 2</td>
+  </tr>
+  <tr>
+    <td>Valor 3</td>
+    <td>Valor 4</td>
+  </tr>
+  <tr>
+    <td>Valor 1</td>
+    <td>Valor 2</td>
+  </tr>
+  <tr>
+    <td>Valor 3</td>
+    <td>Valor 4</td>
+  </tr>
+
+</table>
